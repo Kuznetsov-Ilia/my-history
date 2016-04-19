@@ -1,0 +1,32 @@
+{
+  "name": "my-history",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jsnext:main": "src.js",
+  "files": [ "index.js", "src.js" ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c",
+    "deploy": "git add . && git commit -am 'fix' && git push && npm publish"
+  },
+  "dependencies": {
+    "my-global": "^1.0.0",
+    "my-event": "^1.0.0"
+  },
+  "devDependencies": {
+    "rollup": "*",
+    "rollup-plugin-node-resolve": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QiV/my-history.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QiV/my-history/issues"
+  },
+  "homepage": "https://github.com/QiV/my-history#readme"
+}
