@@ -3,8 +3,8 @@
   "version": "2.0.1",
   "description": "",
   "main": "index.js",
-  "jsnext:main": "src.js",
-  "files": [ "index.js", "src.js" ],
+  "jsnext:main": "index.es",
+  "files": [ "index.js", "index.es" ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rollup -c",
